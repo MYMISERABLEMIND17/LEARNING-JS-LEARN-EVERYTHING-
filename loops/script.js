@@ -6,12 +6,9 @@
 // we wioll use " for " loop  in this case 
 // 1 --- 30
 
-
-for (let i = 1 ; i<= 1000 ; i++){
-    console.log(i);
-}
-
-
+// for (let i = 1 ; i<= 1000 ; i++){
+//     console.log(i);
+// }
 
 
 
@@ -20,9 +17,18 @@ for (let i = 1 ; i<= 1000 ; i++){
 // we will use while loop
 // jab sure na ho 
 
+// start 
+// while(end){
+//     code
+//     change  
+// }
 
 
 
 
-
-
+// do while loop
+// do {
+//     console.log(i) l; 
+//     i++;
+// }
+// while (i<2)

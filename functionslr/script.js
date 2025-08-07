@@ -42,3 +42,22 @@
 // printName (" sarthak mishra ")
 // printName (" anshul mishra ")
 
+
+// taking input 
+// x = prompt("enter your name ") ;
+//console.log(x);
+
+
+// adding 2 numbers 
+// create function 
+// let addition = function(num1,num2){
+//     let sum  = num1+num2 ; 
+//     console.log("sum is = ", sum);
+// }
+// // first take the input from user}
+// let num1 = parseInt(prompt("enter first number ")) ;
+// let num2 = parseInt(prompt("enter second number ")) ;
+// // call the function 
+// addition(num1 , num2) ; 
+
+

@@ -190,8 +190,8 @@
 // }
 // this will work only in "function statement"
 
-me()
-
-me = function(){
-    console.log("hey , whats up  ")
-}
+// me()
+// me = function(){
+//     console.log("hey , whats up  ")
+// }
+// // this will not work with function expression 

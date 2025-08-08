@@ -111,17 +111,87 @@
 // }
 // val = x() ; 
 // console.log(val);
-// value print nhi karwate but value humare paas aa chuki hai , or jab uska kaam hoga tab hum usko use kar linge 
-
-
+// value print nhi karwate but value humare paas aa chuki hai , or jab usk  a kaam hoga tab hum usko use kar linge 
 // first class functions ==> hu m functions ko as a variable treat  kar sakte hain 
-function me(you){
-    you()
+// function me(you ,add){
+//     you()
+//     add()
+// }
+// me(function(){
+//     console.log("world is nice ");
+// }
+// , function(){
+//     let a = 3
+//     let b = 6
+//     add = a+b ;
+//     console.log(add);
+// })
+
+
+// higher order function 
+//hof wo function hai jo yaa toh return kare ek function ya fir
+//  accept kare ek function apne parameter main
+
+// how to create a hof 
+// 1st way 
+// function me(you){
+//     // call the function
+//     you()
+// }
+// me(function(){
+//     console.log("hey cutiee");    
+// })
+
+// 2nd way
+// function me(){
+//     return function you(){
+//         console.log(" its 4:03 in the morning and i am working ");       
+//     }
+// }
+// // calling the function
+// me()()
+
+
+// pure vs impure functions 
+// pure function =>aaisa function jo bahar ki value naa badle 
+// impure function =>aaisa function jo bahar ki value badal de  
+
+
+// closures 
+// ==> ek  function jo return kare ek aur function aur return hone wala function , humesha parent function ke kisi variable ko use kar raha hoga. 
+
+// function me(){
+//     let x = 10 ; 
+//     return function(){
+//         let y = 20
+//         console.log( x+y);
+        
+//     }
+// }
+// call the function
+// me()()
+//  this concept is called closures 
+
+// lexical scoping ==> basic concept hai padh lena .
+
+//iife
+// ==> abhi bas yaad rakh lo kaise likhte hain , uses baad mai likhinge 
+// (function(){
+//     console.log("hey ")
+// })()
+
+
+// hoisting 
+// ==> kisi be function ko banne se pahale call kar lena 
+
+// me()
+// function me(){
+//     console.log("hey , whats up  ")
+// }
+// this will work only in "function statement"
+
+me()
+
+me = function(){
+    console.log("hey , whats up  ")
 }
-
-me(function(){
-    console.log("world is nice ");
-    
-})
-
-you()

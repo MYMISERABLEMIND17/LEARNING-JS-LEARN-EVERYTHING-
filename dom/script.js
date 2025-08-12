@@ -32,5 +32,43 @@
 // f.innerHTML = "<i>mujhe badal do </i>";
 // console.dir(f);
 
+
 // attribute manipulation
 // ==> except tag baaki jo bhi cheez tag ke andar hoti hai like href , name , charset 
+// let atag = document.querySelector("a")
+// console.dir(atag);
+// so if hum kisi tag ko href na dein toh by default uska href hota hai jo humare page ka url hai 
+// atag.href = "https://www.youtube.com/"
+// now the value of href of atag changes
+
+// setattribute 
+// ==> element.setAttribute(name, value);
+// let image = document.querySelector("img")
+// console.log(image);
+// image.setAttribute("image" ,"https://unsplash.com/photos/a-person-poses-on-a-black-motorcycle-DMxHZhWw-nM")
+
+// // get attribute 
+// let arr = document.querySelector("h1")
+// let x = arr.getAttribute("href")
+// console.log(x);
+
+// remove attribute 
+// let arr = document.querySelector("h1")
+// let x =  arr.removeAttribute("href")
+// console.log(x);
+// this basically remove the href proprerty of the html tag
+
+
+
+// dynamic dom selection
+// you can create html  tags from the js 
+// let h1 =  document.createElement("h1")
+// h1.textContent = "hello world " ; 
+// console.log(h1);
+// document.body.appendChild(h1)
+// thats how you can create html tags 
+
+
+
+
+

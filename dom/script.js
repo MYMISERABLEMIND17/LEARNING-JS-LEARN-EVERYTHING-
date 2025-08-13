@@ -70,5 +70,11 @@
 
 
 
+// style updates 
+let h1 = document.querySelector("h1") 
+// console.dir(h1);
+// h1.style.color = "yellow";
+// h1.style.backgroundColor = "red";
 
-
+// class laga sakte ho 
+// toggle 

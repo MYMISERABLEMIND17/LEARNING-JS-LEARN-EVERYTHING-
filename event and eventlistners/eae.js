@@ -34,7 +34,13 @@
 
 
 
-
+// let h1 = document.querySelector("h1")
+// let drop = document.querySelector("#down")
+// console.dir(drop);
+// console.dir(h1);
+// drop.addEventListener("change" , function(){
+//     h1.innerText = `selected`
+// });
 
 
 
